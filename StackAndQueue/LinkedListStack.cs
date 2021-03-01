@@ -27,7 +27,18 @@ namespace StackAndQueue
             this.top = newNode;
             Console.WriteLine($"New Node added to the stack: "+newData);
         }
-        public void Display()
+        public void peek()
+        {
+            if (top == null)
+            {
+                Console.WriteLine("Stack is empty");
+            }
+            else
+            {
+                Console.WriteLine(top.data);
+            }
+        }
+        public void Pop()
         {
             if (top == null)
             {
@@ -45,5 +56,7 @@ namespace StackAndQueue
                 }
             }
         }
+        
+       
     }
 }
