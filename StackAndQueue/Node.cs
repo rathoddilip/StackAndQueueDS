@@ -15,7 +15,7 @@ namespace StackAndQueue
             this.data = data;
             this.next = null;
         }
-        public Node
+       
 
     }
 }

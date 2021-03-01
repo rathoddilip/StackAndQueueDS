@@ -37,7 +37,7 @@ namespace StackAndQueue
             this.front = this.front.next;
             if (this.front == null)
                 this.rear = null;
-            
+        }    
     }
 }
 
