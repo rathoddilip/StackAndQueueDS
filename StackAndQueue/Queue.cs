@@ -35,9 +35,13 @@ namespace StackAndQueue
                 return;
             Node temp = this.front;
             this.front = this.front.next;
+            
             if (this.front == null)
                 this.rear = null;
-        }    
+           
+
+        }
+       
     }
 }
 

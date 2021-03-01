@@ -25,7 +25,14 @@ namespace StackAndQueue
             queue.Enqueue(56);
             queue.Enqueue(30);
             queue.Enqueue(70);
+            //UC4
+            Console.WriteLine();
+            queue.Dequeue();
+            Console.WriteLine("After DeQueue Operation");
+            Console.WriteLine("Queue Front : " + queue.front.data);
+            Console.WriteLine("Queue Rear : " + queue.rear.data);
             Console.ReadLine();
+           
            
         }
     }
